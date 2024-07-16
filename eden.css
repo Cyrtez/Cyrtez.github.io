@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('assets/images/crafts/nuke.gif');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-size: cover;
+}
+
+.background-image {
+    width: 100%; 
+    height: auto;
+    display: block;
+}
+
+.logo {
+    position: absolute;
+    width: 10%;
+    height: auto;
+    top: 8%;
+    left: 80%;
+}
+
+.streetlight {
+    position: absolute;
+    width: 13%; 
+    height: auto;
+    top: 14%;
+    left: 44%;
+}
+
+.garfunkle {
+    position: absolute;
+    width: 12.5%; 
+    height: auto;
+    top: 65%;
+    left: 24%;
+    cursor: pointer;
+}
+
+.arbuckle1 {
+    position: absolute;
+    height: auto;
+    top: 52%;
+    left: 18%;
+    width: 10%;
+    cursor: pointer;
+}
+
+.arbuckle2 {
+    position: absolute;
+    height: auto;
+    top: 58%;
+    left: 18.2%;
+    width: 7.5%;
+    cursor: pointer;
+}
+
+.archie {
+    position: absolute;
+    height: auto;
+    top: 13%;
+    left: 6%;
+    width: 5.5%;
+    cursor: pointer;
+}
+
+.nancy {
+    position: absolute;
+    height: auto;
+    top: 50%;
+    left: 9.5%;
+    width: 7.5%;
+    cursor: pointer;
+}
+
+.kitty1 {
+    position: absolute;
+    width: 6.5%;
+    height: auto;
+    top: 81.5%;
+    left: 39%;
+    cursor: pointer;
+}
+
+.kitty2 {
+    position: absolute;
+    width: 6.4%; 
+    height: auto;
+    top: 81%;
+    left: 42.4%;
+    cursor: pointer;
+}
