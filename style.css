@@ -25,7 +25,6 @@ body {
     width: 45%; /* Adjust the size as needed */
     height: auto;
     display: block;
-    
 }
 
 .foreground-gif {
@@ -40,9 +39,9 @@ body {
     position: absolute;
     width: 9.5%; /* Adjust the size as needed */
     height: auto;
-    pointer-events: none; /* Allows clicks to pass through the GIF to the image below */
     top: 50%;
-    
+    cursor: pointer;    
+    left: 45%;
 }
 
 .chiplet-creature-foreground-gif {
@@ -61,7 +60,6 @@ body {
     height: auto;
     pointer-events: none; /* Allows clicks to pass through the GIF to the image below */
     top: 28%;
-    
 }
 
 .amputee-foreground-gif {
@@ -86,4 +84,47 @@ body {
     height: auto;
     top: 53%;
     left: 43.5%;
+    opacity: 0.45;
+}
+
+.secret-button {
+    position: absolute;
+    width: 2.8%; /* Adjust the size as needed */
+    height: auto;
+    top: 2%;
+    left: 69%;
+    cursor: pointer;
+}
+
+.taskbar {
+    position: absolute;
+    width: 100%; /* Adjust the size as needed */
+    height: 13%;
+    top: 155.5%;
+    left: 0%;
+}
+
+.fart-button {
+    position: absolute;
+    width: 15%; /* Adjust the size as needed */
+    height: 13%;
+    top: 155.5%;
+    left: 0%;
+    cursor: pointer;
+    background-color: transparent; /* Ensure the button background is transparent */
+    border: none; /* Remove border */
+    outline: none; /* Remove outline */
+    background-image: url('assets/images/fartbutton.png'); /* Initial static image */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fart-button:hover {
+    background-image: url('assets/images/quiet.gif'); /* Hover GIF */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 18%; /* Adjust the size as needed */
+    left: -0.9%;
+    top: 154%;
+    height: 16%;
 }
