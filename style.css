@@ -100,15 +100,16 @@ body {
     position: absolute;
     width: 100%; /* Adjust the size as needed */
     height: 13%;
-    top: 111.5%;
+    top: 111.4%;
     left: 0%;
+    bottom: 0;
 }
 
 .fart-button {
     position: absolute;
     width: 15%; /* Adjust the size as needed */
     height: 13%;
-    top: 111.5%;
+    top: 111.4%;
     left: 0%;
     cursor: pointer;
     background-color: transparent; /* Ensure the button background is transparent */
